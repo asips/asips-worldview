@@ -1,0 +1,103 @@
+{
+  "sources": {
+    "GEO:geographic": {
+      "url": "http://geoworldview.ssec.wisc.edu/onearth/wmts/epsg4326/wmts.cgi",
+      "matrixSets": {
+          "EPSG4326_1km": {
+              "id": "EPSG4326_1km",
+              "maxResolution": 0.5625,
+              "resolutions": [
+                  0.5625,
+                  0.28125,
+                  0.140625,
+                  0.0703125,
+                  0.03515625,
+                  0.017578125,
+                  0.0087890625
+              ],
+              "tileSize": [ 512, 512 ],
+              "tileMatrices": [
+                  { "matrixWidth": 2, "matrixHeight": 1 },
+                  { "matrixWidth": 3, "matrixHeight": 2 },
+                  { "matrixWidth": 5, "matrixHeight": 3 },
+                  { "matrixWidth": 10, "matrixHeight": 5 },
+                  { "matrixWidth": 20, "matrixHeight": 10 },
+                  { "matrixWidth": 40, "matrixHeight": 20 },
+                  { "matrixWidth": 80, "matrixHeight": 40 }
+              ]
+          },
+          "EPSG4326_2km" : {
+              "id": "EPSG4326_2km",
+              "maxResolution": 0.5625,
+              "resolutions": [
+                0.5625,
+                0.28125,
+                0.140625,
+                0.0703125,
+                0.03515625,
+                0.017578125
+              ],
+              "tileSize": [ 512, 512 ],
+              "tileMatrices": [
+                  { "matrixWidth": 2, "matrixHeight": 1 },
+                  { "matrixWidth": 3, "matrixHeight": 2 },
+                  { "matrixWidth": 5, "matrixHeight": 3 },
+                  { "matrixWidth": 10, "matrixHeight": 5 },
+                  { "matrixWidth": 20, "matrixHeight": 10 },
+                  { "matrixWidth": 40, "matrixHeight": 20 }
+              ]
+          }
+      }
+    },
+    "SIPS:geographic": {
+      "url": "https://sips.ssec.wisc.edu/onearth/wmts/epsg4326/wmts.cgi",
+      "matrixSets": {
+          "EPSG4326_1km": {
+              "id": "EPSG4326_1km",
+              "maxResolution": 0.5625,
+              "resolutions": [
+                  0.5625,
+                  0.28125,
+                  0.140625,
+                  0.0703125,
+                  0.03515625,
+                  0.017578125,
+                  0.0087890625
+              ],
+              "tileSize": [ 512, 512 ],
+              "tileMatrices": [
+                  { "matrixWidth": 2, "matrixHeight": 1 },
+                  { "matrixWidth": 3, "matrixHeight": 2 },
+                  { "matrixWidth": 5, "matrixHeight": 3 },
+                  { "matrixWidth": 10, "matrixHeight": 5 },
+                  { "matrixWidth": 20, "matrixHeight": 10 },
+                  { "matrixWidth": 40, "matrixHeight": 20 },
+                  { "matrixWidth": 80, "matrixHeight": 40 }
+              ]
+          },
+          "EPSG4326_2km" : {
+              "id": "EPSG4326_2km",
+              "maxResolution": 0.5625,
+              "resolutions": [
+                0.5625,
+                0.28125,
+                0.140625,
+                0.0703125,
+                0.03515625,
+                0.017578125
+              ],
+              "tileSize": [ 512, 512 ],
+              "tileMatrices": [
+                  { "matrixWidth": 2, "matrixHeight": 1 },
+                  { "matrixWidth": 3, "matrixHeight": 2 },
+                  { "matrixWidth": 5, "matrixHeight": 3 },
+                  { "matrixWidth": 10, "matrixHeight": 5 },
+                  { "matrixWidth": 20, "matrixHeight": 10 },
+                  { "matrixWidth": 40, "matrixHeight": 20 }
+              ]
+          }
+      }
+    }
+  }
+}
+

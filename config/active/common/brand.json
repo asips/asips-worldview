@@ -1,0 +1,9 @@
+{
+    "packageName":  "worldview",
+    "officialName": "ASIPS Worldview",
+    "longName":     "Atmosphere SIPS Worldview",
+    "shortName":    "ASIPS Worldview",
+    "description":  "Interactive satellite viewer",
+    "url":          "https://sips.ssec.wisc.edu/worldview/",
+    "email":        "sips.support@ssec.wisc.edu"
+}
