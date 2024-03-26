@@ -2,9 +2,9 @@ This project demonstrates how the Atmosphere SIPS team builds their custom insta
 To try yourself:
 ```
 $ docker build -f Dockerfile -t asips-worldview --target app .
-$ docker run --rm asips-worldview:latest
+$ docker run -p 3000:8080 --rm asips-worldview:latest
 ```
-Your instance should now be available at http://localhost:8080/.
+Your instance should now be available at http://localhost:3000/.
 
 We make use of the python package [worldview-config](https://github.com/asips/worldview-config) to simplify
 staying in-sync with the main GIBS instance and applying our own layer configuration.  As a result only a few static files
