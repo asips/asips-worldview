@@ -40,5 +40,29 @@
             "asips"
         ],
         "colormap_id": "Cloud_Effective_Radius.colormap"
+    },
+    {
+        "satellite": "himawari8 ",
+        "instrument": "ahi",
+        "discipline": "atmosphere",
+        "title": "CHIMAERA Cloud Optical Thickness",
+        "colormap": "ABI.Cloud_Optical_Thickness.colormap.xml",
+        "description": "This layer is created by the GEO Worldview team at UW-Madison SSEC.",
+        "source_name": "GEO:geographic",
+        "measurement": "Cloud Optical Thickness",
+        "matrix_set": "EPSG4326_2km",
+        "id": "CHIMAERA-Cloud_Optical_Thickness-himawari8 ",
+        "period": "subdaily",
+        "date_interval": 10,
+        "rolling_window": null,
+        "format": "png",
+        "tags": [
+            "geo"
+        ],
+        "colormap_id": "ABI.Cloud_Optical_Thickness.colormap",
+        "start_date": "2011-01-01T00:00:00Z",
+        "end_date": "2016-01-01T00:00:00Z",
+        "temporal_start": "2011-01-01T00:00:00Z",
+        "temporal_end": "2016-01-01T00:00:00Z"
     }
 ]

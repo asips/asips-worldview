@@ -15,7 +15,7 @@ RUN npm run getcapabilities
 
 FROM python:3.11 as config
 
-RUN pip install worldview-config
+RUN pip install worldview-config>=0.2.0
 
 # Bring in the static config stored in this repo
 COPY config/active /new_config
