@@ -42,27 +42,26 @@
         "colormap_id": "Cloud_Effective_Radius.colormap"
     },
     {
-        "satellite": "himawari8 ",
-        "instrument": "ahi",
-        "discipline": "atmosphere",
-        "title": "CHIMAERA Cloud Optical Thickness",
-        "colormap": "ABI.Cloud_Optical_Thickness.colormap.xml",
-        "description": "This layer is created by the GEO Worldview team at UW-Madison SSEC.",
-        "source_name": "GEO:geographic",
-        "measurement": "Cloud Optical Thickness",
-        "matrix_set": "EPSG4326_2km",
-        "id": "CHIMAERA-Cloud_Optical_Thickness-himawari8 ",
-        "period": "subdaily",
-        "date_interval": 10,
-        "rolling_window": null,
-        "format": "png",
-        "tags": [
-            "geo"
-        ],
-        "colormap_id": "ABI.Cloud_Optical_Thickness.colormap",
-        "start_date": "2011-01-01T00:00:00Z",
-        "end_date": "2016-01-01T00:00:00Z",
-        "temporal_start": "2011-01-01T00:00:00Z",
-        "temporal_end": "2016-01-01T00:00:00Z"
+      "id": "ABI-Cloud_Effective_Radius-goes16-day-std-0.0.1dev1",
+      "satellite": "goes16",
+      "instrument": "ABI",
+      "measurement": "Cloud Effective Radius",
+      "discipline": "atmosphere",
+      "title": "Cloud Effective Radius (0.0.1dev1)",
+      "format": "png",
+      "matrix_set": "EPSG4326_2km",
+      "source_name": "SIPS:geographic",
+      "start_date": "2019-09-01T00:00:00",
+      "group": "overlays",
+      "description": "Imagery for GOES16 ABI using a modified geovis script.",
+      "tags": [
+        "asips"
+      ],
+      "period": "subdaily",
+      "end_date": "2019-01-10T00:00:00",
+      "temporal_start": "2019-09-01T00:00:00Z",
+      "temporal_end": "2019-09-10T00:00:00Z",
+      "colormap_id": "ABI.Cloud_Effective_Radius.colormap.xml",
+      "date_interval": 10
     }
 ]
