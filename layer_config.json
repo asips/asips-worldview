@@ -6,9 +6,13 @@
         "title": "Clear Sky Confidence Day",
         "start_date": "2015-08-25T00:00:00Z",
         "description": "This is made by the Atmosphere SIPS team at UW - Madison. We recommend that you set the right threshold to 0.94 -> 0.95. If the value is over 0.95, the sky is almost for sure clear in that area. So by setting the threshold to that value, you can see through to the other layers whenever the sky is clear.",
-        "source_name": "SIPS:geographic",
         "measurement": "Clear Sky Confidence",
-        "matrix_set": "EPSG4326_1km",
+        "projections": {
+          "geographic": {
+            "source": "SIPS:geographic",
+            "matrixSet": "EPSG4326_1km"
+          }
+        },
         "id": "CLDMSK_L2_MODIS_Aqua-Clear_Sky_Confidence-aqua-day-std-1.0",
         "period": "daily",
         "date_interval": null,
@@ -27,9 +31,13 @@
         "title": "Cloud Effective Radius",
         "start_date": "2019-11-01T00:00:00Z",
         "description": "This is made by the Atmosphere SIPS team at UW - Madison.",
-        "source_name": "SIPS:geographic",
         "measurement": "Cloud Effective Radius",
-        "matrix_set": "EPSG4326_1km",
+        "projections": {
+          "geographic": {
+            "source": "SIPS:geographic",
+            "matrixSet": "EPSG4326_1km"
+          }
+        },
         "id": "CLDPROP_L2_MODIS_Aqua-Cloud_Effective_Radius-aqua-day-std-1.1.0",
         "period": "daily",
         "date_interval": null,

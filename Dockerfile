@@ -1,11 +1,11 @@
-ARG NODE_VERSION=20.11.0
+ARG NODE_VERSION=20.18.0
 FROM node:${NODE_VERSION} as build_base
 # This stage retrieves the requested version of worldview
 # and builds out config for the GIBS layers
 # by querying their GetCapabilities endpoint
 WORKDIR /code
 
-ARG WORLDVIEW_VERSION=4.29.0
+ARG WORLDVIEW_VERSION=4.55.0
 RUN git clone -b v${WORLDVIEW_VERSION} --single-branch --depth 1 \
     https://github.com/nasa-gibs/worldview.git .
 
@@ -15,7 +15,7 @@ RUN npm run getcapabilities
 
 FROM python:3.11 as config
 
-RUN pip install worldview-config
+RUN pip install worldview-config==0.2.1
 
 # Bring in the static config stored in this repo
 COPY config/active /new_config
